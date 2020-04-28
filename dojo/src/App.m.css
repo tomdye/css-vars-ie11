@@ -1,0 +1,18 @@
+.one, .two, .three {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.one {
+	background: var(--one);
+}
+
+.two {
+	background: var(--two);
+}
+
+.three {
+	background: var(--three);
+}

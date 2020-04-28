@@ -1,0 +1,21 @@
+{
+  "name": "variant",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "dojo build --mode dev --watch --serve",
+    "build": "dojo build --mode dist",
+    "build:dev": "dojo build --mode dev"
+  },
+  "main": "src/main.tsx",
+  "dependencies": {
+    "@dojo/framework": "next",
+    "@dojo/widgets": "file:../../widgets/dist/dojo-widgets-0.0.18-pre.tgz",
+    "cldrjs": "0.5.0",
+    "tslib": "~1.9.1"
+  },
+  "devDependencies": {
+    "@dojo/cli": "next",
+    "@dojo/cli-build-app": "next",
+    "typescript": "~3.8.0"
+  }
+}

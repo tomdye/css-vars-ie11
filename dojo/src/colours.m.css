@@ -1,0 +1,13 @@
+.dark {
+	--one: darkred;
+	--two: darkblue;
+	--three: darkgreen;
+	--background: black;
+}
+
+.light {
+	--one: red;
+	--two: blue;
+	--three: green;
+	--background: lightgray;
+}
